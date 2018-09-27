@@ -53,11 +53,6 @@ class SLinkList:
             newNode.nextNode = rightNode
 
 
-
-
-
-
-
     def printList(self):
         counterNode = self.headNode
 
@@ -65,7 +60,33 @@ class SLinkList:
             counterNode = counterNode.nextNode
             print(counterNode.value)
 
+    def removeAtEnd(self):
+        counterNode = self.headNode.nextNode
+        count = 0
+        while count < self.noOfItems-1:
+            counterNode = counterNode.nextNode
+            count += 1
+        counterNode.nextNode= None
+    def removeAtFirst(self):
+      #  tempNode = self.headNode.nextNode
+       # self.headNode.nextNode = tempNode.nextNode
+        self.headNode.nextNode = self.headNode.nextNode.nextNode
 
+    def removeAtKey(self,key):
+        count = 0
+        counterNode= self.headNode.nextNode
+        if key<=0:
+            self.removeAtFirst()
+        elif key>= self.noOfItems-1:
+            self.removeAtEnd()
+        else:
+            while count != key-1:
+                count+=1
+                counterNode = counterNode.nextNode
+            counterNode.nextNode = counterNode.nextNode.nextNode
+
+
+#tryinout
 lis = SLinkList()
 lis.insertAtStart(1)
 lis.insertAtEnd(2)
@@ -79,4 +100,10 @@ lis.printList()
 
 lis.insertAtKey(4,1)
 print("afeter insertd at key")
+lis.printList()
+
+print("remove")
+lis.removeAtKey(100)
+lis.removeAtEnd()
+lis.removeAtFirst()
 lis.printList()
