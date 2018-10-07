@@ -30,6 +30,7 @@ class DLinkList:
         self.noOfItem = self.noOfItem +1
 
     def insertAtIndex(self,value,index):
+        self.noOfItem = self.noOfItem + 1
         if index <=0:
             self.insertAtFront(value)
             return
@@ -47,7 +48,42 @@ class DLinkList:
         node.prev = counterNode
         node.next = counterNode.next
         counterNode.next = node
+        return
 
+
+    def removeAtFront(self):
+        currentNode = self.head.next
+        self.head.next = currentNode.next
+        currentNode.prev = self.head
+        self.noOfItem = self.noOfItem - 1
+
+    def removeAtEnd(self):
+        currentNode = self.head
+        while currentNode.next != None:
+            currentNode  = currentNode.next
+        currentNode.prev.next = None
+        self.noOfItem = self.noOfItem -1
+
+    def removeAtIndex(self,index):
+
+        if(index  <=0):
+            self.removeAtFront()
+
+            return
+        elif index >= self.noOfItem-1:
+            self.removeAtEnd()
+
+            return
+        else:
+            counter = 0;
+            counterNode = self.head.next
+            while counter < index:
+                counterNode = counterNode.next
+                counter = 1+ counter
+
+            counterNode.prev.next = counterNode.next
+            self.noOfItem = self.noOfItem - 1
+            return
 
     def traverserFront(self):
         itemList =[]
@@ -88,5 +124,10 @@ print(dList.traverserFront())
 print(dList.traverseBack())
 print("no of iten:",dList.noOfItem)
 
+dList.removeAtIndex(-5)
+dList.removeAtIndex(0)
+print(dList.traverserFront())
 
 
+
+print("no of iten:",dList.noOfItem)

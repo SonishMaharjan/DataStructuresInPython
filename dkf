@@ -1,0 +1,294 @@
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 6e5f95b..999d1bf 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -2,7 +2,7 @@[m
+ <project version="4">[m
+   <component name="ChangeListManager">[m
+     <list default="true" id="06d14182-bdef-4f15-b3ef-622272f304a2" name="Default Changelist" comment="">[m
+[31m-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/SingleLInkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/SingleLInkList.py" afterDir="false" />[m
+     </list>[m
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />[m
+     <option name="SHOW_DIALOG" value="false" />[m
+[36m@@ -14,32 +14,31 @@[m
+     <session id="-965240458">[m
+       <usages-collector id="statistics.lifecycle.project">[m
+         <counts>[m
+[31m-          <entry key="project.closed" value="4" />[m
+[32m+[m[32m          <entry key="project.closed" value="2" />[m
+           <entry key="project.open.time.0" value="1" />[m
+           <entry key="project.open.time.16" value="1" />[m
+[31m-          <entry key="project.open.time.2" value="1" />[m
+[31m-          <entry key="project.open.time.5" value="2" />[m
+[31m-          <entry key="project.opened" value="5" />[m
+[32m+[m[32m          <entry key="project.open.time.5" value="1" />[m
+[32m+[m[32m          <entry key="project.opened" value="3" />[m
+         </counts>[m
+       </usages-collector>[m
+       <usages-collector id="statistics.file.extensions.open">[m
+         <counts>[m
+[31m-          <entry key="py" value="2" />[m
+[32m+[m[32m          <entry key="py" value="1" />[m
+         </counts>[m
+       </usages-collector>[m
+       <usages-collector id="statistics.file.types.open">[m
+         <counts>[m
+[31m-          <entry key="Python" value="2" />[m
+[32m+[m[32m          <entry key="Python" value="1" />[m
+         </counts>[m
+       </usages-collector>[m
+       <usages-collector id="statistics.file.extensions.edit">[m
+         <counts>[m
+[31m-          <entry key="py" value="4390" />[m
+[32m+[m[32m          <entry key="py" value="2443" />[m
+         </counts>[m
+       </usages-collector>[m
+       <usages-collector id="statistics.file.types.edit">[m
+         <counts>[m
+[31m-          <entry key="Python" value="4390" />[m
+[32m+[m[32m          <entry key="Python" value="2443" />[m
+         </counts>[m
+       </usages-collector>[m
+       <usages-collector id="statistics.vcs.git.usages" />[m
+[36m@@ -50,8 +49,8 @@[m
+       <file pinned="false" current-in-tab="true">[m
+         <entry file="file://$PROJECT_DIR$/SingleLInkList.py">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="96">[m
+[31m-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />[m
+[32m+[m[32m            <state relative-caret-position="346">[m
+[32m+[m[32m              <caret line="107" column="19" lean-forward="true" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />[m
+               <folding>[m
+                 <marker date="1538041336064" expanded="true" signature="11:16" ph="..." />[m
+                 <marker date="1538041336064" expanded="true" signature="121:126" ph="..." />[m
+[36m@@ -79,15 +78,14 @@[m
+     <option name="CHANGED_PATHS">[m
+       <list>[m
+         <option value="$PROJECT_DIR$/SingleLInkList.py" />[m
+[31m-        <option value="$PROJECT_DIR$/venv/DoubleLinkList.py" />[m
+       </list>[m
+     </option>[m
+   </component>[m
+   <component name="ProjectFrameBounds" extendedState="6">[m
+[31m-    <option name="x" value="187" />[m
+[31m-    <option name="y" value="116" />[m
+[31m-    <option name="width" value="1141" />[m
+[31m-    <option name="height" value="652" />[m
+[32m+[m[32m    <option name="x" value="184" />[m
+[32m+[m[32m    <option name="y" value="111" />[m
+[32m+[m[32m    <option name="width" value="1151" />[m
+[32m+[m[32m    <option name="height" value="645" />[m
+   </component>[m
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />[m
+   <component name="ProjectView">[m
+[36m@@ -95,6 +93,7 @@[m
+       <foldersAlwaysOnTop value="true" />[m
+     </navigator>[m
+     <panes>[m
+[32m+[m[32m      <pane id="Scope" />[m
+       <pane id="ProjectPane">[m
+         <subPane>[m
+           <expand>[m
+[36m@@ -102,20 +101,14 @@[m
+               <item name="pyDataStructure" type="b2602c69:ProjectViewProjectNode" />[m
+               <item name="pyDataStructure" type="462c0819:PsiDirectoryNode" />[m
+             </path>[m
+[31m-            <path>[m
+[31m-              <item name="pyDataStructure" type="b2602c69:ProjectViewProjectNode" />[m
+[31m-              <item name="pyDataStructure" type="462c0819:PsiDirectoryNode" />[m
+[31m-              <item name="venv" type="462c0819:PsiDirectoryNode" />[m
+[31m-            </path>[m
+           </expand>[m
+           <select />[m
+         </subPane>[m
+       </pane>[m
+[31m-      <pane id="Scope" />[m
+     </panes>[m
+   </component>[m
+   <component name="PropertiesComponent">[m
+[31m-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/DoubleLinkList.py" />[m
+[32m+[m[32m    <property name="last_opened_file_path" value="$PROJECT_DIR$/SingleLInkList.py" />[m
+     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />[m
+   </component>[m
+   <component name="RunDashboard">[m
+[36m@@ -130,28 +123,7 @@[m
+       </list>[m
+     </option>[m
+   </component>[m
+[31m-  <component name="RunManager" selected="Python.DLinkList">[m
+[31m-    <configuration name="DLinkList" type="PythonConfigurationType" factoryName="Python">[m
+[31m-      <module name="pyDataStructure" />[m
+[31m-      <option name="INTERPRETER_OPTIONS" value="" />[m
+[31m-      <option name="PARENT_ENVS" value="true" />[m
+[31m-      <envs>[m
+[31m-        <env name="PYTHONUNBUFFERED" value="1" />[m
+[31m-      </envs>[m
+[31m-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />[m
+[31m-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />[m
+[31m-      <option name="IS_MODULE_SDK" value="false" />[m
+[31m-      <option name="ADD_CONTENT_ROOTS" value="true" />[m
+[31m-      <option name="ADD_SOURCE_ROOTS" value="true" />[m
+[31m-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DoubleLinkList.py" />[m
+[31m-      <option name="PARAMETERS" value="" />[m
+[31m-      <option name="SHOW_COMMAND_LINE" value="false" />[m
+[31m-      <option name="EMULATE_TERMINAL" value="false" />[m
+[31m-      <option name="MODULE_MODE" value="false" />[m
+[31m-      <option name="REDIRECT_INPUT" value="false" />[m
+[31m-      <option name="INPUT_FILE" value="" />[m
+[31m-      <method v="2" />[m
+[31m-    </configuration>[m
+[32m+[m[32m  <component name="RunManager">[m
+     <configuration name="SLinkList" type="PythonConfigurationType" factoryName="Python">[m
+       <module name="pyDataStructure" />[m
+       <option name="INTERPRETER_OPTIONS" value="" />[m
+[36m@@ -173,10 +145,6 @@[m
+       <option name="INPUT_FILE" value="" />[m
+       <method v="2" />[m
+     </configuration>[m
+[31m-    <list>[m
+[31m-      <item itemvalue="Python.SLinkList" />[m
+[31m-      <item itemvalue="Python.DLinkList" />[m
+[31m-    </list>[m
+   </component>[m
+   <component name="SvnConfiguration">[m
+     <configuration />[m
+[36m@@ -193,13 +161,14 @@[m
+   </component>[m
+   <component name="ToolWindowManager">[m
+     <frame x="67" y="27" width="1299" height="741" extended-state="6" />[m
+[32m+[m[32m    <editor active="true" />[m
+     <layout>[m
+       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21081504" />[m
+       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />[m
+       <window_info id="Favorites" order="2" side_tool="true" />[m
+       <window_info anchor="bottom" id="Message" order="0" />[m
+       <window_info anchor="bottom" id="Find" order="1" />[m
+[31m-      <window_info anchor="bottom" id="Run" order="2" weight="0.36258277" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Run" order="2" weight="0.30980393" />[m
+       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900663" />[m
+       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />[m
+       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />[m
+[36m@@ -219,8 +188,8 @@[m
+   <component name="editorHistoryManager">[m
+     <entry file="file://$PROJECT_DIR$/SingleLInkList.py">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="96">[m
+[31m-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />[m
+[32m+[m[32m        <state relative-caret-position="346">[m
+[32m+[m[32m          <caret line="107" column="19" lean-forward="true" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />[m
+           <folding>[m
+             <marker date="1538041336064" expanded="true" signature="11:16" ph="..." />[m
+             <marker date="1538041336064" expanded="true" signature="121:126" ph="..." />[m
+[36m@@ -231,12 +200,5 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/venv/DoubleLinkList.py">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="2088">[m
+[31m-          <caret line="87" column="27" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+   </component>[m
+ </project>[m
+\ No newline at end of file[m
+[1mdiff --git a/DoubleLinkList.py b/DoubleLinkList.py[m
+[1mdeleted file mode 100644[m
+[1mindex 0fbac8c..0000000[m
+[1m--- a/DoubleLinkList.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,92 +0,0 @@[m
+[31m-class Node:[m
+[31m-    def __init__(self,value =None):[m
+[31m-        self.prev = None[m
+[31m-        self.item = value[m
+[31m-        self.next = None[m
+[31m-[m
+[31m-class DLinkList:[m
+[31m-    def __init__(self):[m
+[31m-        self.head = Node()[m
+[31m-        self.noOfItem = 0[m
+[31m-[m
+[31m-    def insertAtEnd(self,value):[m
+[31m-        counterNode = self.head[m
+[31m-        node = Node(value)[m
+[31m-        while counterNode.next != None:[m
+[31m-            counterNode = counterNode.next[m
+[31m-[m
+[31m-        counterNode.next = node[m
+[31m-        node.prev = counterNode[m
+[31m-[m
+[31m-        self.noOfItem = self.noOfItem +1[m
+[31m-[m
+[31m-    def insertAtFront(self,value):[m
+[31m-        node = Node(value)[m
+[31m-        node.prev = self.head[m
+[31m-        temp = self.head.next[m
+[31m-        self.head.next = node[m
+[31m-        node.next = temp[m
+[31m-        temp.prev = node[m
+[31m-        self.noOfItem = self.noOfItem +1[m
+[31m-[m
+[31m-    def insertAtIndex(self,value,index):[m
+[31m-        if index <=0:[m
+[31m-            self.insertAtFront(value)[m
+[31m-            return[m
+[31m-        if index > self.noOfItem-1:[m
+[31m-            self.insertAtEnd(value)[m
+[31m-            return[m
+[31m-[m
+[31m-        counterNode = self.head.next[m
+[31m-        counter = 0[m
+[31m-        while counter < index-1:[m
+[31m-            counter = counter+1[m
+[31m-            counterNode = counterNode.next[m
+[31m-[m
+[31m-        node= Node(value)[m
+[31m-        node.prev = counterNode[m
+[31m-        node.next = counterNode.next[m
+[31m-        counterNode.next = node[m
+[31m-[m
+[31m-[m
+[31m-    def traverserFront(self):[m
+[31m-        itemList =[][m
+[31m-        counterNode = self.head[m
+[31m-        while counterNode.next != None:[m
+[31m-            counterNode = counterNode.next[m
+[31m-            itemList.append(counterNode.item)[m
+[31m-        return itemList[m
+[31m-[m
+[31m-    def traverseBack(self):[m
+[31m-        counterNode = self.head[m
+[31m-        counter = 0[m
+[31m-        itemList = [][m
+[31m-        while counter<self.noOfItem:[m
+[31m-[m
+[31m-            counterNode = counterNode.next[m
+[31m-            counter =1+counter[m
+[31m-[m
+[31m-[m
+[31m-        while counterNode.prev != None:[m
+[31m-            itemList.append(counterNode.item)[m
+[31m-            counterNode = counterNode.prev[m
+[31m-[m
+[31m-        return  itemList[m
+[31m-[m
+[31m-[m
+[31m-dList = DLinkList()[m
+[31m-dList.insertAtEnd(3)[m
+[31m-dList.insertAtEnd(34)[m
+[31m-dList.insertAtFront(233)[m
+[31m-dList.insertAtFront(369)[m
+[31m-dList.insertAtEnd(3434)[m
+[31m-[m
+[31m-print(dList.traverserFront())[m
+[31m-#print(dList.traverseBack())[m
+[31m-dList.insertAtIndex(300,5)[m
+[31m-print(dList.traverserFront())[m
+[31m-print(dList.traverseBack())[m
+[31m-print("no of iten:",dList.noOfItem)[m
+[31m-[m
+[31m-[m
+[31m-[m
